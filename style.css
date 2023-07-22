@@ -1,0 +1,66 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    color: white;
+    font-size: large;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    width:70%;
+    margin: auto;
+    margin-top: 25px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position: top 20px;
+    border-radius: 20px;
+}
+
+.logo{
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.title{
+    color: chartreuse;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.navigation{
+    background-color: chartreuse;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+nav , main{
+    width: 80%;
+    margin: auto;
+}
+
+section > span{
+    display: block;
+}
+
+section > hr{
+    border-radius: 5px;
+}
+
+.orange{
+    border: 15px solid orange;
+    margin-right: 65%;
+
+}
+
+.green{
+    border: 15px solid green;
+    margin-right: 33%;
+}
+
+.red{
+    border: 15px solid red;
+    margin-right: 85%;
+}
